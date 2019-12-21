@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstSection{
+    background: url(../img/bg-masthead.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+.firstSection .fS-child{
+    padding: 13em 0;
+}
+.firstSection .fS-child h1{
+    margin: 15px;
+    font-size: 2.25rem;
+}
+.firstSection .fS-child p{
+    margin: 15px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+.firstSection .fS-child hr{
+    max-width: 3.25rem;
+    border-color: #f4623a;
+}
+.mybtn{
+    color: #fff;
+    background: #f4623a;
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    border: none;
+    border-radius: 50px;
+}
+.mybtn.white{
+    background: #fff;
+    color: #000;
+}
+.secondSection {
+    background: #f4623a;
+    height: 25em;
+    text-align: center;
+    color: #fff;
+}
+.secondSection .section-child hr{
+    max-width: 3.25rem;
+    border-color: #fff;
+}
+.secondSection .section-child{
+    padding: 7em 0;
+}
+.secondSection .section-child h1{
+    font-size: 2.25rem;
+    margin-bottom: 15px;
+}
+.secondSection .section-child p{
+    font-size: 1.2em;
+    margin: 15px;
+}
+.divIcon .divIconChild {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 30px 15px;
+}
+.divIconChild i {
+    background: #fff;
+    color: #f4623a;
+    padding: 0px;
+    border-radius: 100%;
+    margin: 25px 0;
+    font-size: 65px;
+}
+.clear{
+    clear: both;
+}
+
+.projects .project-item{
+    background: url(../img/1.jpg);
+    padding:8rem 6rem;
+    color:#fff;
+    background-size: cover;
+    width:33%;
+    float: left;
+    background-repeat: round;
+}
+.projects .project-item.pro-1{
+    background: url(../img/2.jpg);
+    background-repeat: no-repeat;
+}
+.projects .project-item.pro-2{
+    background: url(../img/3.jpg);
+    background-repeat: no-repeat;
+}
+.projects .project-item.pro-3{
+    background: url(../img/4.jpg);
+    background-repeat: no-repeat;
+}
+.projects .project-item.pro-4{
+    background: url(../img/5.jpg);
+    background-repeat: no-repeat;
+}
+.projects .project-item.pro-5{
+    background: url(../img/6.jpg);
+    background-repeat: no-repeat;
+}
+.download {
+    background: #6c757d;
+    padding: 8em;
+    color: #fff;
+}
+.white{
+    background: #fff;
+    color: #6c757d;
+}
+.white h1{
+    color: #000;
+}
+.white hr{
+    color: #f4623a;
+}
+.mybtn.white {
+    margin-top: 3em;
+    background: #fff;
+    color: #000;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    margin: auto 22em;
+    font-size: 17px;
+}
+.center{
+    margin-bottom: 2em;
+}
+.text-orange {
+    color: #f4623a;
+}
+.footer{
+    text-align: center;
+    background: #dedede;
+    padding: 15px;
+}
